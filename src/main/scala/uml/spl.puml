@@ -1,0 +1,16 @@
+@startuml
+
+class Advertiser{
+id,
+name
+}
+
+class Offer{
+id,
+name,
+advertiser_id
+}
+
+Advertiser <|- Offer
+
+@enduml
