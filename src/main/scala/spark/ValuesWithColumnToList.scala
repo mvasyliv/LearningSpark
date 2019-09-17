@@ -23,12 +23,24 @@ object ValuesWithColumnToList extends App {
   ).toDF("col1", "col2")
 
  df.show(false)
-
+//  Result show DataFrame df
+//  +----+----+
+//  |col1|col2|
+//  +----+----+
+//  |a1  |b1  |
+//  |a2  |b2  |
+//  |a3  |b3  |
+//  |a4  |b4  |
+//  |a5  |b5  |
+//  +----+----+
+//
   // Values with column to list
   val l = df.select('col1).as[String].collect.toList
   println(
     s"""~~~~~>
        |List values with column:  $l
        |~~~~~<""".stripMargin)
-
+// result
+//  List values with column:  List(a1, a2, a3, a4, a5)
+//
 }
