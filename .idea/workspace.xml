@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="" />
+    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/ExtractEmailDataFrameColumn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/regex_extract.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +25,16 @@
       <list>
         <option value="UML Class" />
         <option value="UML Use Case" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -54,7 +64,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValuesWithColumnToList">
+  <component name="RunManager" selected="Application.ExtractEmailDataFrameColumn">
+    <configuration name="ExtractEmailDataFrameColumn" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.ExtractEmailDataFrameColumn" />
+      <module name="LearningSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="LearningSpark" />
@@ -75,8 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="regex_extract" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.regex_extract" />
+      <module name="LearningSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtractEmailDataFrameColumn" />
+        <item itemvalue="Application.regex_extract" />
         <item itemvalue="Application.ValuesWithColumnToList" />
         <item itemvalue="Application.Hello" />
       </list>
@@ -138,6 +176,14 @@
       <workItem from="1566745325534" duration="28000" />
       <workItem from="1566745370870" duration="261000" />
     </task>
+    <task id="LOCAL-00001" summary="t1">
+      <created>1568999548347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568999548347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,5 +201,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="t1" />
+    <option name="LAST_COMMIT_MESSAGE" value="t1" />
   </component>
 </project>
