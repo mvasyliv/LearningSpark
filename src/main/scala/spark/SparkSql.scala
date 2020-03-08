@@ -23,7 +23,16 @@ object SparkSql extends App {
     emp(3, "Hermoine")
   ).toDF()
 
-  empDF.show(false)
+  empDF.show(10, false)
+
+//  +-----+-----------+
+//  |EmpId|EmpName    |
+//  +-----+-----------+
+//  |1    |Tom        |
+//  |2    |Harry      |
+//  |2    |Harry Lewis|
+//  |3    |Hermoine   |
+//  +-----+-----------+
 
 
   val empDF1 = empDF.groupBy("EmpId").agg(max("EmpName").alias("EmpName"))
@@ -35,5 +44,16 @@ object SparkSql extends App {
     .orderBy(col("EmpId").asc)
 
 
-  resultDF.show(false)
+  resultDF.show(10, false)
+
+//  +-----+----------+
+//  |EmpId|EmpName   |
+//  +-----+----------+
+//  |1    |Tom       |
+//  |2    |HarryLewis|
+//  |3    |Hermoine  |
+//  +-----+----------+
+
+
+
 }
