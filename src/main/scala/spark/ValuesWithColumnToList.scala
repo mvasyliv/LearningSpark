@@ -22,6 +22,7 @@ object ValuesWithColumnToList extends App {
     M1("a5", "b5")
   ).toDF("col1", "col2")
 
+  
  df.show(false)
 //  Result show DataFrame df
 //  +----+----+
