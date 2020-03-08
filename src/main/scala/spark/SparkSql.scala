@@ -23,7 +23,7 @@ object SparkSql extends App {
     emp(3, "Hermoine")
   ).toDF()
 
-  empDF.show(false)
+  empDF.show(10, false)
 
 //  +-----+-----------+
 //  |EmpId|EmpName    |
@@ -44,7 +44,7 @@ object SparkSql extends App {
     .orderBy(col("EmpId").asc)
 
 
-  resultDF.show(false)
+  resultDF.show(10, false)
 
 //  +-----+----------+
 //  |EmpId|EmpName   |
@@ -53,5 +53,7 @@ object SparkSql extends App {
 //  |2    |HarryLewis|
 //  |3    |Hermoine  |
 //  +-----+----------+
+
+
 
 }
