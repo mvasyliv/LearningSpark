@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/GroupListValueToColumn.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/spark/GroupListValueToColumn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/GroupListValueToColumn.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583680556203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="collect_list, collect _set">
+      <created>1584609445115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584609445115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +264,7 @@
     <MESSAGE value="example regexp extract" />
     <MESSAGE value="Insert data to table spark warehouse with diff spark shell" />
     <MESSAGE value="add result show" />
-    <option name="LAST_COMMIT_MESSAGE" value="add result show" />
+    <MESSAGE value="collect_list, collect _set" />
+    <option name="LAST_COMMIT_MESSAGE" value="collect_list, collect _set" />
   </component>
 </project>
