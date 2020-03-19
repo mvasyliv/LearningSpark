@@ -29,6 +29,7 @@ object GroupListValueToColumn extends App {
   ).toDF()
 
   val res = source.groupBy("cust_id").agg(collect_list("addresstype"))
+    .withColumnRenamed("collect_set(addresstype)", "addresstype")
 
   res.show(false)
 //  +---------+-------------------------+
@@ -40,6 +41,7 @@ object GroupListValueToColumn extends App {
 //  +---------+-------------------------+
 
   val res1 = source.groupBy("cust_id").agg(collect_set("addresstype"))
+    .withColumnRenamed("collect_set(addresstype)", "addresstype")
 
   res1.show(false)
 
