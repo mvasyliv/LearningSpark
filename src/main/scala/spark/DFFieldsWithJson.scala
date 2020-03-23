@@ -1,7 +1,7 @@
     package spark
 
-    import org.apache.spark.sql.{Column, DataFrame, Row, SparkSession}
-    import org.apache.spark.sql.types.{DataType, StructType}
+    import org.apache.spark.sql.{Column, DataFrame, Row, SparkSession, types}
+    import org.apache.spark.sql.types.{ArrayType, DataType, StringType, StructField, StructType}
 
     import scala.io.Source
 
@@ -86,4 +86,6 @@
     //  |2  |First Name 2|Last Name 2|
     //  |3  |First Name 3|Last Name 3|
     //  +---+------------+-----------+
+
+
     }
