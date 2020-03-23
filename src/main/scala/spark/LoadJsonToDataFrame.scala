@@ -1,6 +1,10 @@
     package spark
 
     import org.apache.spark.sql.SparkSession
+
+    /**
+     * Load json string to DataFrame
+     */
     object LoadJsonToDataFrame extends App {
 
       val sampleJson = """[
@@ -37,6 +41,7 @@
     //  |[10.0.0.1, 10.0.0.2, 10.0.0.3, 10.0.0.4]|5   |
     //  |[10.0.0.1, 10.0.0.2, 10.0.0.3, 10.0.0.4]|6   |
     //  +----------------------------------------+----+
+
       df.printSchema()
     //  root
     //  |-- IP: array (nullable = true)
