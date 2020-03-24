@@ -1,7 +1,7 @@
     package spark
 
     import org.apache.spark.sql.SparkSession
-
+    import org.apache.spark.sql.functions.{explode, col}
     /**
      * Load json string to DataFrame
      */
@@ -48,6 +48,42 @@
     //  |    |-- element: string (containsNull = true)
     //  |-- user: long (nullable = true)
 
+      // explode
+      val explodeDF = df
+        .withColumn("ipExplode", explode(col("IP")))
+          .select('user, 'ipExplode)
+
+      explodeDF.show(50, false)
+    //      +----+---------+
+    //      |user|ipExplode|
+    //      +----+---------+
+    //      |1   |10.0.0.1 |
+    //      |1   |10.0.0.2 |
+    //      |1   |10.0.0.3 |
+    //      |1   |10.0.0.4 |
+    //      |2   |10.0.0.1 |
+    //      |2   |10.0.0.2 |
+    //      |2   |10.0.0.3 |
+    //      |2   |10.0.0.4 |
+    //      |3   |10.0.0.1 |
+    //      |3   |10.0.0.2 |
+    //      |3   |10.0.0.3 |
+    //      |3   |10.0.0.4 |
+    //      |4   |10.0.0.1 |
+    //      |4   |10.0.0.2 |
+    //      |4   |10.0.0.3 |
+    //      |4   |10.0.0.4 |
+    //      |5   |10.0.0.1 |
+    //      |5   |10.0.0.2 |
+    //      |5   |10.0.0.3 |
+    //      |5   |10.0.0.4 |
+    //      |6   |10.0.0.1 |
+    //      |6   |10.0.0.2 |
+    //      |6   |10.0.0.3 |
+    //      |6   |10.0.0.4 |
+    //      +----+---------+
+
+      
     }
 
 

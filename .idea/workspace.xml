@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="">
+    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment=" load json string to DataFrame and explode">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,6 +168,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4731415778399" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3191546419" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
         <entry key="$PROJECT_DIR$/project/metals.sbt" value="1147041318" />
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584951599842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" load json string to DataFrame 1">
+      <created>1584951931775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584951931775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +279,8 @@
     <MESSAGE value="Insert data to table spark warehouse with diff spark shell" />
     <MESSAGE value="add result show" />
     <MESSAGE value="load json string to DataFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="load json string to DataFrame" />
+    <MESSAGE value=" load json string to DataFrame 1" />
+    <MESSAGE value=" load json string to DataFrame and explode" />
+    <option name="LAST_COMMIT_MESSAGE" value=" load json string to DataFrame and explode" />
   </component>
 </project>
