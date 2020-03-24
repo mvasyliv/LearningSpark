@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment=" load json string to DataFrame and explode">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" afterDir="false" />
     </list>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584951931775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" load json string to DataFrame and explode">
+      <created>1585030943774</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585030943774</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

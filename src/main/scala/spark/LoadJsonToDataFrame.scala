@@ -48,12 +48,12 @@
     //  |    |-- element: string (containsNull = true)
     //  |-- user: long (nullable = true)
 
-      // explode
+      // explode: one IP in one row
       val explodeDF = df
         .withColumn("ipExplode", explode(col("IP")))
           .select('user, 'ipExplode)
 
-      explodeDF.show(50, false)
+      explodeDF.show(false)
     //      +----+---------+
     //      |user|ipExplode|
     //      +----+---------+
