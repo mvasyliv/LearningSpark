@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +67,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupListValueToColumn">
+  <component name="RunManager" selected="Application.DFFieldsWithJson">
     <configuration name="DFFieldsWithJson" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="spark.DFFieldsWithJson" />
+      <module name="LearningSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicColumnSelection" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.DynamicColumnSelection" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RddCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.RddCount" />
+    <configuration name="MapperData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.MapperData" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -108,21 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaTransf" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.SchemaTransf" />
-      <module name="LearningSpark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkSql" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.SparkSql" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.RangeTime" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupListValueToColumn" />
         <item itemvalue="Application.DFFieldsWithJson" />
-        <item itemvalue="Application.SchemaTransf" />
-        <item itemvalue="Application.SparkSql" />
-        <item itemvalue="Application.RddCount" />
+        <item itemvalue="Application.DynamicColumnSelection" />
+        <item itemvalue="Application.GroupListValueToColumn" />
+        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.MapperData" />
       </list>
     </recent_temporary>
   </component>
@@ -171,8 +170,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4715123839961" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="3191546419" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2349314132" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
         <entry key="$PROJECT_DIR$/project/metals.sbt" value="1147041318" />
       </map>
@@ -256,10 +254,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="t1" />
     <MESSAGE value="example regexp extract" />
     <MESSAGE value="Insert data to table spark warehouse with diff spark shell" />
     <MESSAGE value="add result show" />
-    <option name="LAST_COMMIT_MESSAGE" value="add result show" />
+    <MESSAGE value="dynamic column selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic column selection" />
   </component>
 </project>
