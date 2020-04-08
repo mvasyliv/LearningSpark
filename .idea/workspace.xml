@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment=" load json string to DataFrame and explode">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b459c917-9ae6-431b-9e07-adc137a74418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/readcsv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/CreateColumnInDF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/DynamicNameDataFrame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/DynamicTempTable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/ReadCSV.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/filterWorld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/spark/nonCommon.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/spark/LoadJsonToDataFrame.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/prj-haskell/real" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -66,9 +74,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoadJsonToDataFrame">
-    <configuration name="DFFieldsWithJson" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.DFFieldsWithJson" />
+  <component name="RunManager" selected="Application.DynamicTempTable">
+    <configuration name="DynamicNameDataFrame" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.DynamicNameDataFrame" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupListValueToColumn" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.GroupListValueToColumn" />
+    <configuration name="DynamicTempTable" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.DynamicTempTable" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadJsonToDataFrame" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.LoadJsonToDataFrame" />
+    <configuration name="ReadCSV" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.ReadCSV" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaTransf" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.SchemaTransf" />
+    <configuration name="filterWorld" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.filterWorld" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkSql" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="spark.SparkSql" />
+    <configuration name="nonCommon" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="spark.nonCommon" />
       <module name="LearningSpark" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoadJsonToDataFrame" />
-        <item itemvalue="Application.GroupListValueToColumn" />
-        <item itemvalue="Application.DFFieldsWithJson" />
-        <item itemvalue="Application.SchemaTransf" />
-        <item itemvalue="Application.SparkSql" />
+        <item itemvalue="Application.DynamicTempTable" />
+        <item itemvalue="Application.DynamicNameDataFrame" />
+        <item itemvalue="Application.filterWorld" />
+        <item itemvalue="Application.ReadCSV" />
+        <item itemvalue="Application.nonCommon" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585030943774</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" load json string to DataFrame and explode">
+      <created>1585031492067</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585031492067</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
